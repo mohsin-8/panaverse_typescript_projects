@@ -75,7 +75,7 @@ const programFunc = async () => {
     );
   } else if (answers.operator == "Multiplication") {
     console.log(
-      chalk.red(
+      chalk.yellow(
         `${answers.numberOne} * ${answers.numberTwo} = ${
           answers.numberOne * answers.numberTwo
         }`
@@ -83,7 +83,7 @@ const programFunc = async () => {
     );
   } else if (answers.operator == "Division") {
     console.log(
-      chalk.red(
+      chalk.grey(
         `${answers.numberOne} % ${answers.numberTwo} = ${
           answers.numberOne % answers.numberTwo
         }`

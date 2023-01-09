@@ -53,10 +53,10 @@ const programFunc = async () => {
         console.log(chalk.red(`${answers.numberOne} - ${answers.numberTwo} = ${answers.numberOne - answers.numberTwo}`));
     }
     else if (answers.operator == "Multiplication") {
-        console.log(chalk.red(`${answers.numberOne} * ${answers.numberTwo} = ${answers.numberOne * answers.numberTwo}`));
+        console.log(chalk.yellow(`${answers.numberOne} * ${answers.numberTwo} = ${answers.numberOne * answers.numberTwo}`));
     }
     else if (answers.operator == "Division") {
-        console.log(chalk.red(`${answers.numberOne} % ${answers.numberTwo} = ${answers.numberOne % answers.numberTwo}`));
+        console.log(chalk.grey(`${answers.numberOne} % ${answers.numberTwo} = ${answers.numberOne % answers.numberTwo}`));
     }
 };
 const startAgain = async () => {
