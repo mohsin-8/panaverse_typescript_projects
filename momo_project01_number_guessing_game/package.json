@@ -1,7 +1,7 @@
 {
-  "name": "momo_project00_calculator",
-  "version": "1.1.0",
-  "description": "momo_project00_calculator with typescript and NodeJS",
+  "name": "momo_project01_number_guessing_game",
+  "version": "1.0.0",
+  "description": "momo_project01_number_guessing_game with typescript and Nodejs",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -9,20 +9,18 @@
   },
   "keywords": [],
   "bin": {
-    "momo_project00_calculator": "./build/app.js"
+    "momo_project01_number_guessing_game": "./build/app.js"
   },
   "author": "Mohsin Ali Khan",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",
-    "figlet": "^1.5.2",
     "inquirer": "^9.1.4"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
     "@types/chalk-animation": "^1.6.1",
-    "@types/figlet": "^1.5.5",
     "@types/inquirer": "^9.0.3"
   }
 }
